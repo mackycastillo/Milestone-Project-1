@@ -1,0 +1,46 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+iframe {
+  width: 600;
+	height: 450;
+	border: 1px solid black;
+}
+
+footer {
+    height: 150px;
+  }
+  .social-networks {
+    text-align: center;
+  }
+  .social-networks li {
+    display: inline;
+  }
+  .social-networks i {
+    font-size: 260%;
+    margin: 1%;
+    padding: 3%;
+    color: #777;
+  }  
+
+  #copyright {
+    text-align: center;
+  }
+
+  #customerReviews {
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+
+
