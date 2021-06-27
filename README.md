@@ -9,3 +9,11 @@ Introduction:
   2. Introduce not only they sell drinks but also snacks. 
   3. Gain an upper rank in search engines.
   4. To have more sales. 
+
+**27 June 2021** 
+  Added html description meta tag
+  Added snacks section
+  Added business links to social media icons
+  Changed the column responsiveness of the products
+  Added a text on one of the slide in the carousel div
+
