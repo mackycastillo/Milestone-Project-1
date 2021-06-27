@@ -13,9 +13,9 @@ Introduction:
 
 **27 June 2021** 
 
-  Added html description meta tag
-  Added snacks section
-  Added business links to social media icons
-  Changed the column responsiveness of the products
-  Added a text on one of the slide in the carousel div
+  Added html description meta tag, 
+  Added snacks section, 
+  Added business links to social media icons, 
+  Changed the column responsiveness of the products, 
+  Added a text on one of the slide in the carousel div.
 
