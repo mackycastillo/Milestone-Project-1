@@ -1,5 +1,6 @@
 # Milestone-Project-1
 Introduction:
+
   This is a website for a milktea business in the Philippines. They brew the best milktea in the city of Pines (Baguio)! 
   The logo and pictures I used in this project are the sole property of SayoTea and have granted me full permission all 
   throughout the course. 
@@ -11,6 +12,7 @@ Introduction:
   4. To have more sales. 
 
 **27 June 2021** 
+
   Added html description meta tag
   Added snacks section
   Added business links to social media icons
