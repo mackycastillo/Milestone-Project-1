@@ -22,8 +22,8 @@ Introduction:
   **28 June 2021**
   
   Added products in snacks section
-	Added real reviews from SayoTea facebook page
-	Continued working on scrollspy – success!
+  Added real reviews from SayoTea facebook page
+  Continued working on scrollspy – success!
   Embed exact address of branches to Google maps
 
 
