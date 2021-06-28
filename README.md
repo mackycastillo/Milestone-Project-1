@@ -18,4 +18,12 @@ Introduction:
   Added business links to social media icons, 
   Changed the column responsiveness of the products, 
   Added a text on one of the slide in the carousel div.
+  
+  **28 June 2021**
+  
+  Added products in snacks section
+	Added real reviews from SayoTea facebook page
+	Continued working on scrollspy – success!
+  Embed exact address of branches to Google maps
+
 
