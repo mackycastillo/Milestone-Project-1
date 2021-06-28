@@ -13,16 +13,17 @@ img {
 }
 
 iframe {
-  width: 600;
-	height: 450;
 	border: 1px solid black;
 }
 
 footer {
     height: 150px;
+    background-color: #e9ecef;
+
   }
   .social-networks {
     text-align: center;
+    background-color: #e9ecef;
   }
   .social-networks li {
     display: inline;
@@ -32,9 +33,10 @@ footer {
     margin: 1%;
     padding: 3%;
     color: #777;
-  }  
+  }
 
   #copyright {
+    background-color: #e9ecef;
     text-align: center;
   }
 

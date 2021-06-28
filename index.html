@@ -27,36 +27,33 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-
-	<div class="sticky-top">
-		<nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="index.html">
-				<!-- Business logo as a link to homepage -->
-				<img id="logo" src="img/Sayotea logo.png" alt="SayoTea">
-			</a>
-			<!-- Hamburger functions when viewport is descreased -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="nav nav-pills">
-					<a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="#ourTea">Our Tea</a>
-					<a class="nav-item nav-link" href="#snacks">Snacks</a>
-					<a class="nav-item nav-link" href="#customerReviews">Reviews</a>
-					<a class="nav-item nav-link" href="#contact">Contact Us</a>
-				</div>
+<div class="sticky-top">
+	<nav id="navbarMenu" class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">
+			<!-- Business logo as a link to homepage -->
+			<img id="logo" src="img/Sayotea logo.png" alt="SayoTea">
+		</a>
+		<!-- Hamburger functions when viewport is descreased -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="nav nav-pills">
+				<a class="nav-item nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#ourTea">Our Tea</a>
+				<a class="nav-item nav-link" href="#snacks">Snacks</a>
+				<a class="nav-item nav-link" href="#customerReviews">Reviews</a>
+				<a class="nav-item nav-link" href="#contact">Contact Us</a>
 			</div>
-		</nav>
-	</div>
+		</div>
+	</nav>
+</div>
 
-	<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-
+<body data-spy="scroll" data-target="#navbarMenu" data-offset="250">
 
 	<div class="container mt-3">
-		<div class="jumbotron">
+		<div id="home" class="jumbotron">
 			<!-- Carousel -->
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
@@ -85,14 +82,9 @@
 	</div>
 	<!-- end of jumbotron container -->
 
-
 	<!-- Our Tea section -->
-
-
-
 	<div class="container">
 		<div id="ourTea">
-
 			<h2>Our Tea</h2><br>
 			<div class="row">
 				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
@@ -187,6 +179,22 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+					<div class="thumbnail"><img src="img/garlic-and-oil-pasta.jpg" alt="garlic-and-oil-pasta">
+						<div class="caption"><br>
+							<h5>Garlic and oil pasta</h5>
+							<p>&#8369 100.00</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+					<div class="thumbnail"><img src="img/mozarella-stick-sayotea.jpg" alt="mozarella-stick-sayotea">
+						<div class="caption"><br>
+							<h5>Mozzarella sticks</h5>
+							<p>&#8369 100.00</p>
+						</div>
+					</div>
+				</div>
 			</div>
 			<!-- end of snacks row -->
 		</div>
@@ -197,7 +205,6 @@
 	<!-- Reviews section -->
 	<div class="container">
 		<div id="customerReviews">
-			<hr>
 			<h2>What our customers are saying...</h2><br>
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
@@ -236,17 +243,18 @@
 	</div>
 	<!-- end of Reviews section -->
 
-
 	<!-- Contact Us section -->
 	<div class="container">
 		<div id="contact">
 			<h2>Contact Us</h2><br>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-lg-6 col-md-12 col-sm-6">
 					<div class="branch">
 						<h5>Baguio Branch</h5>
-						<iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAQnEpJu_Cmu_Hy8l0L4bUGBUBAhee45mE
-									&q=Space+Needle,Seattle+WA">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.171685442752!2d120.
+							56988171486296!3d16.416104688667463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0
+							x3391a19b9f225cc9%3A0x94541d53e6a0ba91!2sSayoTea%20Milktea%20Hub!5e0!3m2!1sen!2suk!4v1624915018912!5m2!1sen!2suk" 
+							width="100%" height="450" allowfullscreen="" loading="lazy">
 						</iframe>
 						<p>Adress: 45E Delos Santos Street Middle Quezon Hill Baguio City 2600 Baguio City,
 							Philippines
@@ -256,11 +264,13 @@
 					</div>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-lg-6 col-md-12 col-sm-6">
 					<div class="branch">
 						<h5>Santa Maria Pangasinan Branch</h5>
-						<iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAQnEpJu_Cmu_Hy8l0L4bUGBUBAhee45mE
-									&q=Space+Needle,Seattle+WA">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.642135304122!2d120.
+							69766361485739!3d15.980054188936215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x
+							33913d2bfb7b88b5%3A0xbd51b209ed775e7c!2sSayoTea%20Milktea%20Hub%20-%20Santa%20Maria%20Branch!
+							5e0!3m2!1sen!2suk!4v1624915329579!5m2!1sen!2suk" width="100%" height="450" allowfullscreen="" loading="lazy">
 						</iframe>
 						<p>Address: Rizal Street Poblacion West 2440 Santa Maria, Philippines</p>
 						<p>Number to call: +63 01234 567 890</p>
@@ -271,11 +281,6 @@
 		</div>
 	</div>
 
-	</div>
-	<!-- end of data spy -->
-
-
-
 	<!-- Footer/ links to Social Media/Grab food/Food Panda -->
 	<footer>
 		<ul class="social-networks">
@@ -284,8 +289,9 @@
 			<li><a href="https://www.instagram.com/sayoteabaguio/?hl=en-gb" target="_blank"><i
 						class="fab fa-instagram-square"></i></a></li>
 		</ul>
-	</footer>
+	</footer>	
 	<p id="copyright">&#169 Mark Anthony Castillo 2021</p>
+
 
 	<!-- personal fontawesome kit -->
 	<script src="https://kit.fontawesome.com/dbe3bcee52.js" crossorigin="anonymous"></script>
