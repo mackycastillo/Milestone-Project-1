@@ -45,15 +45,17 @@ footer {
     padding-top: 20px;
   }
 
-.cover-image a {
-  width: 300px;
-  height: 200px;
+.delivery-image a {
+  width: 30%;
+  height: 30%;
   opacity: .5;
   bottom: 30px;
-  right: 150px;
   position: absolute;
-  margin: auto;
-  display: inline;
+  display: block;
+}
+
+.delivery-image img {
+  border-radius: 50%;
 }
 
 
