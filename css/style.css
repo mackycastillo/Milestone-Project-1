@@ -45,15 +45,21 @@ footer {
     padding-top: 20px;
   }
 
-  .delivery li {
-    height: 50%;
-    width: 30%;
-    display: inline;
-    list-style-type: none;
-    float: left;
-    margin: auto;
-    padding: 5%;
-  }
+.cover-image a {
+  width: 300px;
+  height: 200px;
+  opacity: .5;
+  bottom: 30px;
+  right: 150px;
+  position: absolute;
+  margin: auto;
+  display: inline;
+}
+
+
+
+
+  
 
   
 
