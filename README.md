@@ -25,5 +25,11 @@ Introduction:
   Added real reviews from SayoTea facebook page
   Continued working on scrollspy – success!
   Embed exact address of branches to Google maps
+  
+  **29 June 2021**
+  
+  Added more products under Our Tea and Snacks section
+  Changed courier logos border-radius to 50% 
+  Added courier links
 
 
