@@ -45,4 +45,15 @@ footer {
     padding-top: 20px;
   }
 
+  .delivery li {
+    height: 50%;
+    width: 30%;
+    display: inline;
+    list-style-type: none;
+    float: left;
+    margin: auto;
+    padding: 5%;
+  }
+
+  
 
