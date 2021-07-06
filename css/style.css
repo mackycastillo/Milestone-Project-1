@@ -3,7 +3,8 @@
 /* Colours */
 
 .color-name-title {
-  background-color: #FDC094;
+  background-color: #384E78;
+  color: #FAF9F6;
 }
 
 /* Heading */
@@ -46,6 +47,7 @@ header {
 
 footer {
   min-height: 150px;
+  background-color: #384E78;
 }
 
 .social-networks, #copyright {
@@ -61,7 +63,7 @@ footer {
 .social-networks i {
   font-size: 250%;
   padding: 20px;
-  color: #777777;
+  color: #FAF9F6;
 }
 
 
