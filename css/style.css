@@ -22,9 +22,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 260px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in;
+  -moz-transition: all .5s ease-in;
+  -webkit-transition: all .5s ease-in;
 }
 
 .name {
@@ -45,17 +45,17 @@ header {
 /* Footer */
 
 footer {
-  height: 150px;
+  min-height: 150px;
 }
 
-.social-networks {
+.social-networks, #copyright {
   text-align: center;
   margin: auto;
   padding: 0%;
 }
 
 .social-networks li {
-  display: inline;
+  display: inline-block;
 }
 
 .social-networks i {
@@ -63,6 +63,7 @@ footer {
   padding: 20px;
   color: #777777;
 }
+
 
 
 
