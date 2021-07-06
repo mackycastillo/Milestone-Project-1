@@ -42,4 +42,27 @@ header {
   margin-bottom: 110px;
 }
 
+/* Footer */
+
+footer {
+  height: 150px;
+}
+
+.social-networks {
+  text-align: center;
+  margin: auto;
+  padding: 0%;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 250%;
+  padding: 20px;
+  color: #777777;
+}
+
+
 
