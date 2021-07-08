@@ -7,6 +7,10 @@
   color: #FAF9F6;
 }
 
+.timeline-figure {
+  background-color: #5874DC;
+}
+
 /* Heading */
 
 header {
@@ -43,6 +47,12 @@ header {
   margin-bottom: 110px;
 }
 
+/* Timeline */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 /* Footer */
 
 footer {
@@ -66,6 +76,21 @@ footer {
   color: #FAF9F6;
 }
 
+.row table {
+  display: table;
+}
 
+.section-column {
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
+}
+
+.timeline-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
 
 
