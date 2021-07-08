@@ -47,10 +47,29 @@ header {
   margin-bottom: 110px;
 }
 
-/* Timeline */
+/* Timeline column on the left*/
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.about-me, .work-experience, .education  {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: #000;
+  text-align: center;
+}
+
+/* Description of the timeline */
+
+.aboutMe {
+  font-family: "Exo", sans-serif;
+  font-weight: 100;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-weight: 300;
 }
 
 /* Footer */
@@ -60,10 +79,15 @@ footer {
   background-color: #384E78;
 }
 
-.social-networks, #copyright {
+.social-networks {
   text-align: center;
   margin: auto;
   padding: 0%;
+}
+
+#copyright {
+  color: #FAF9F6; 
+  text-align: center;
 }
 
 .social-networks li {
@@ -76,21 +100,6 @@ footer {
   color: #FAF9F6;
 }
 
-.row table {
-  display: table;
-}
 
-.section-column {
-  display: table-cell;
-  padding: 0 30px 30px;
-  float: none;
-}
-
-.timeline-heading {
-  font-family: "Exo", sans-serif;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 40px;
-}
 
 
