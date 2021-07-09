@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+* {
+  box-sizing: border-box;
+}
+
 /* Colours */
 
 .color-name-title {
-  background-color: #384E78;
+  background-color: #474e5d;
   color: #FAF9F6;
 }
 
@@ -47,24 +51,35 @@ header {
   margin-bottom: 110px;
 }
 
-/* Timeline column on the left*/
+/* Left menus*/
 
 .uppercase {
   text-transform: uppercase;
 }
 
-.about-me, .work-experience, .education  {
+.about-me, 
+.work-experience, 
+.education,
+.contact-me {
   font-family: "Exo", sans-serif;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 40px;
   color: #000;
-  text-align: center;
+  text-align: left;
 }
 
-/* Description of the timeline */
+.about-me:hover, 
+.work-experience:hover, 
+.education:hover,
+.contact-me:hover {
+  text-decoration: none;
+  font-size: 18px;
+}
 
-.aboutMe {
+/* More information on the right */
+
+.more-information {
   font-family: "Exo", sans-serif;
   font-weight: 100;
   margin-top: 25px;
@@ -76,7 +91,7 @@ header {
 
 footer {
   min-height: 150px;
-  background-color: #384E78;
+  background-color: #474e5d;
 }
 
 .social-networks {
