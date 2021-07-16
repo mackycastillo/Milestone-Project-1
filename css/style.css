@@ -79,6 +79,10 @@ header {
 
 /* More information on the right */
 
+i {
+  font-size: 250%;
+}
+
 .more-information {
   font-family: "Exo", sans-serif;
   font-weight: 100;
@@ -92,6 +96,9 @@ header {
 footer {
   min-height: 150px;
   background-color: #474e5d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .social-networks {
