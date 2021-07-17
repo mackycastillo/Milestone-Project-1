@@ -57,10 +57,7 @@ header {
   text-transform: uppercase;
 }
 
-.about-me, 
-.work-experience, 
-.education,
-.contact-me {
+.left-menu {
   font-family: "Exo", sans-serif;
   font-weight: 300;
   margin-top: 25px;
@@ -69,10 +66,7 @@ header {
   text-align: left;
 }
 
-.about-me:hover, 
-.work-experience:hover, 
-.education:hover,
-.contact-me:hover {
+.left-menu:hover {
   text-decoration: none;
   font-size: 18px;
 }
