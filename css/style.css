@@ -81,6 +81,7 @@ header {
 
 i {
   font-size: 250%;
+  color: #474e5d;
 }
 
 .more-information {
@@ -96,7 +97,6 @@ i {
 footer {
   min-height: 150px;
   background-color: #474e5d;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
